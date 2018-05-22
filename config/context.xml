@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><Context>
+    <Resource accessToUnderlyingConnectionAllowed="true" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/main" password="root" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:h2:file:~/dbef84896d4c4c3d8e0028c30e5d38e9;DATABASE_TO_UPPER=false;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" username="root"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" driverClassName="org.postgresql.Driver" logAbandoned="true" name="jdbc/Teste_Post" password="oih1KZ9k5YnDaqsldjdDfWkq_Y4vcsUd" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:postgresql://stampy.db.elephantsql.com:5432/tzhwcobw?charSet=UTF-8;" username="tzhwcobw"/>
+    <Profile value="DEV"/>
+</Context>
